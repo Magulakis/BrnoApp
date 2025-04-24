@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1C833A2DB8C3A800E88985 /* FacultyStudentStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83392DB8C3A800E88985 /* FacultyStudentStat.swift */; };
+		5E1C833C2DB8C6E000E88985 /* UniversityFacultyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C833B2DB8C6E000E88985 /* UniversityFacultyChart.swift */; };
+		5E1C833E2DB8D37600E88985 /* UniversityStudentChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C833D2DB8D37600E88985 /* UniversityStudentChart.swift */; };
+		5E1C83412DB8DA1000E88985 /* RecommendedTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83402DB8DA1000E88985 /* RecommendedTrip.swift */; };
+		5E1C83432DB8DA4500E88985 /* RecommendedTripData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83422DB8DA4500E88985 /* RecommendedTripData.swift */; };
+		5E1C83452DB8DBC300E88985 /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83442DB8DBC300E88985 /* TripCardView.swift */; };
+		5E1C83482DB8E5E000E88985 /* NatureSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83472DB8E5E000E88985 /* NatureSpot.swift */; };
+		5E1C834A2DB8E60200E88985 /* NatureSpotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83492DB8E60200E88985 /* NatureSpotData.swift */; };
+		5E1C834C2DB8E67500E88985 /* NatureSpotCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C834B2DB8E67500E88985 /* NatureSpotCardView.swift */; };
+		5E1C834F2DB8EBF000E88985 /* BrnoSportTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C834E2DB8EBF000E88985 /* BrnoSportTeam.swift */; };
+		5E1C83512DB8EC2A00E88985 /* BrnoSportTeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83502DB8EC2A00E88985 /* BrnoSportTeamData.swift */; };
+		5E1C83532DB8EC6300E88985 /* BrnoSportCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83522DB8EC6300E88985 /* BrnoSportCardView.swift */; };
+		5E1C83552DB90E7E00E88985 /* FoodCategoryFilterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83542DB90E7E00E88985 /* FoodCategoryFilterCard.swift */; };
+		5E1C83582DB9163600E88985 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83572DB9163600E88985 /* Tab.swift */; };
+		5E1C835B2DB9167600E88985 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C835A2DB9167600E88985 /* CustomTabBarView.swift */; };
+		5E1C835D2DB9221600E88985 /* TabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C835C2DB9221600E88985 /* TabRouter.swift */; };
+		5E2D18C52DB6686F004DA448 /* MemoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D18C42DB6686F004DA448 /* MemoryStore.swift */; };
+		5E2D18C82DB67A4E004DA448 /* PopulationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D18C72DB67A4E004DA448 /* PopulationData.swift */; };
+		5E2D18CA2DB67C6E004DA448 /* PopulationMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D18C92DB67C6E004DA448 /* PopulationMockData.swift */; };
+		5E2D18CC2DB67CA1004DA448 /* BrnoPopulationChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D18CB2DB67CA1004DA448 /* BrnoPopulationChart.swift */; };
+		5E2D18CE2DB685C6004DA448 /* ChartContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D18CD2DB685C6004DA448 /* ChartContainer.swift */; };
+		5E2D18D02DB68668004DA448 /* ChartAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D18CF2DB68668004DA448 /* ChartAnnotationView.swift */; };
+		5E3C6EFE2DBA26920090A685 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6EFD2DBA26920090A685 /* SearchBarView.swift */; };
+		5E3C6F002DBA2CCA0090A685 /* PlaceSearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6EFF2DBA2CCA0090A685 /* PlaceSearchHelper.swift */; };
+		5E3C6F022DBA30030090A685 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6F012DBA30030090A685 /* PlaceCategory.swift */; };
+		5E3C6F042DBA352D0090A685 /* PlaceStore+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6F032DBA352D0090A685 /* PlaceStore+Ext.swift */; };
+		5E3C6F062DBA390D0090A685 /* AllPlacesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6F052DBA390D0090A685 /* AllPlacesData.swift */; };
+		5E3C6F082DBA3B520090A685 /* VisitedAreaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6F072DBA3B520090A685 /* VisitedAreaData.swift */; };
+		5E4429062DB3ED6700495CBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4428F62DB3ED6700495CBD /* Preview Assets.xcassets */; };
+		5E4429072DB3ED6700495CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4429022DB3ED6700495CBD /* Assets.xcassets */; };
+		5E4429082DB3ED6700495CBD /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4428F42DB3ED6700495CBD /* Color+Ext.swift */; };
+		5E4429092DB3ED6700495CBD /* BrnoFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4428F82DB3ED6700495CBD /* BrnoFoodView.swift */; };
+		5E44290A2DB3ED6700495CBD /* BrnoNatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4428F92DB3ED6700495CBD /* BrnoNatureView.swift */; };
+		5E44290B2DB3ED6700495CBD /* BrnoUniversitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4428FA2DB3ED6700495CBD /* BrnoUniversitiesView.swift */; };
+		5E44290C2DB3ED6700495CBD /* CompetitiveSportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4428FB2DB3ED6700495CBD /* CompetitiveSportsView.swift */; };
+		5E44290D2DB3ED6700495CBD /* MostVisitedAreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4428FC2DB3ED6700495CBD /* MostVisitedAreasView.swift */; };
+		5E44290E2DB3ED6700495CBD /* PopulationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4428FD2DB3ED6700495CBD /* PopulationDetailView.swift */; };
+		5E44290F2DB3ED6700495CBD /* RecommendedTripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4428FE2DB3ED6700495CBD /* RecommendedTripsView.swift */; };
+		5E4429102DB3ED6700495CBD /* BrnoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429002DB3ED6700495CBD /* BrnoTabView.swift */; };
+		5E4429112DB3ED6700495CBD /* BrnoAppkaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429032DB3ED6700495CBD /* BrnoAppkaApp.swift */; };
+		5E4429122DB3ED6700495CBD /* BrnoMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429042DB3ED6700495CBD /* BrnoMapView.swift */; };
+		5E4429142DB3ED8300495CBD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429132DB3ED8300495CBD /* HomeView.swift */; };
+		5E4429172DB3EF0500495CBD /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429162DB3EF0500495CBD /* CardsView.swift */; };
+		5E44291B2DB3F3C700495CBD /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44291A2DB3F3C700495CBD /* FavouritesView.swift */; };
+		5E44291E2DB3F46C00495CBD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44291D2DB3F46C00495CBD /* ProfileView.swift */; };
+		5E4429202DB3F70F00495CBD /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44291F2DB3F70F00495CBD /* PlaceStore.swift */; };
+		5E4429222DB3F93E00495CBD /* DestinationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429212DB3F93E00495CBD /* DestinationCardView.swift */; };
+		5E4429242DB3FF6000495CBD /* AddMemorySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429232DB3FF6000495CBD /* AddMemorySheet.swift */; };
+		5E84E4D22DBA836100594636 /* FoodAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4D12DBA836100594636 /* FoodAnnotation.swift */; };
+		5E84E4DA2DBAABAC00594636 /* PromotionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4D92DBAABAC00594636 /* PromotionCardView.swift */; };
+		5E84E4DC2DBAAC3500594636 /* PlaceCategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4DB2DBAAC3500594636 /* PlaceCategoryPickerView.swift */; };
+		5E84E4DE2DBAC28900594636 /* FullScreenPhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4DD2DBAC28900594636 /* FullScreenPhotoViewer.swift */; };
+		5E84E4E02DBAD5B900594636 /* MemoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4DF2DBAD5B900594636 /* MemoryCardView.swift */; };
+		5E84E4E42DBAE21F00594636 /* BrnoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4E32DBAE21F00594636 /* BrnoViewModel.swift */; };
+		5E8EBB4A2DB7728300CC7029 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB492DB7728300CC7029 /* Date+Utils.swift */; };
+		5E8EBB4C2DB772D600CC7029 /* ChartDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB4B2DB772D600CC7029 /* ChartDataTypes.swift */; };
+		5E8EBB4E2DB772FC00CC7029 /* ChartHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB4D2DB772FC00CC7029 /* ChartHelper.swift */; };
+		5E8EBB502DB777D900CC7029 /* ChartEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB4F2DB777D900CC7029 /* ChartEmptyView.swift */; };
+		5E8EBB542DB7890100CC7029 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB532DB7890100CC7029 /* FoodData.swift */; };
+		5E8EBB562DB793D700CC7029 /* FoodPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB552DB793D700CC7029 /* FoodPlace.swift */; };
+		5E8EBB582DB7942900CC7029 /* FoodPlaceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB572DB7942900CC7029 /* FoodPlaceRowView.swift */; };
+		5E8EBB5A2DB796FB00CC7029 /* PlaceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB592DB796FB00CC7029 /* PlaceLocation.swift */; };
+		5E8EBB5D2DB7C5F400CC7029 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB5C2DB7C5F400CC7029 /* University.swift */; };
+		5E8EBB5F2DB7C5FD00CC7029 /* UniversityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB5E2DB7C5FD00CC7029 /* UniversityData.swift */; };
+		5E8EBB612DB7C61000CC7029 /* UniversityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB602DB7C61000CC7029 /* UniversityDetailView.swift */; };
+		5E8EBB632DB7C99D00CC7029 /* UniversityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EBB622DB7C99D00CC7029 /* UniversityCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E1C83392DB8C3A800E88985 /* FacultyStudentStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyStudentStat.swift; sourceTree = "<group>"; };
+		5E1C833B2DB8C6E000E88985 /* UniversityFacultyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityFacultyChart.swift; sourceTree = "<group>"; };
+		5E1C833D2DB8D37600E88985 /* UniversityStudentChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityStudentChart.swift; sourceTree = "<group>"; };
+		5E1C83402DB8DA1000E88985 /* RecommendedTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrip.swift; sourceTree = "<group>"; };
+		5E1C83422DB8DA4500E88985 /* RecommendedTripData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTripData.swift; sourceTree = "<group>"; };
+		5E1C83442DB8DBC300E88985 /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
+		5E1C83472DB8E5E000E88985 /* NatureSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSpot.swift; sourceTree = "<group>"; };
+		5E1C83492DB8E60200E88985 /* NatureSpotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSpotData.swift; sourceTree = "<group>"; };
+		5E1C834B2DB8E67500E88985 /* NatureSpotCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSpotCardView.swift; sourceTree = "<group>"; };
+		5E1C834E2DB8EBF000E88985 /* BrnoSportTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoSportTeam.swift; sourceTree = "<group>"; };
+		5E1C83502DB8EC2A00E88985 /* BrnoSportTeamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoSportTeamData.swift; sourceTree = "<group>"; };
+		5E1C83522DB8EC6300E88985 /* BrnoSportCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoSportCardView.swift; sourceTree = "<group>"; };
+		5E1C83542DB90E7E00E88985 /* FoodCategoryFilterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategoryFilterCard.swift; sourceTree = "<group>"; };
+		5E1C83572DB9163600E88985 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		5E1C835A2DB9167600E88985 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		5E1C835C2DB9221600E88985 /* TabRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouter.swift; sourceTree = "<group>"; };
+		5E2D18C42DB6686F004DA448 /* MemoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStore.swift; sourceTree = "<group>"; };
+		5E2D18C72DB67A4E004DA448 /* PopulationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationData.swift; sourceTree = "<group>"; };
+		5E2D18C92DB67C6E004DA448 /* PopulationMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationMockData.swift; sourceTree = "<group>"; };
+		5E2D18CB2DB67CA1004DA448 /* BrnoPopulationChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoPopulationChart.swift; sourceTree = "<group>"; };
+		5E2D18CD2DB685C6004DA448 /* ChartContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartContainer.swift; sourceTree = "<group>"; };
+		5E2D18CF2DB68668004DA448 /* ChartAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAnnotationView.swift; sourceTree = "<group>"; };
+		5E3C6EFD2DBA26920090A685 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		5E3C6EFF2DBA2CCA0090A685 /* PlaceSearchHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchHelper.swift; sourceTree = "<group>"; };
+		5E3C6F012DBA30030090A685 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
+		5E3C6F032DBA352D0090A685 /* PlaceStore+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaceStore+Ext.swift"; sourceTree = "<group>"; };
+		5E3C6F052DBA390D0090A685 /* AllPlacesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPlacesData.swift; sourceTree = "<group>"; };
+		5E3C6F072DBA3B520090A685 /* VisitedAreaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedAreaData.swift; sourceTree = "<group>"; };
+		5E4428F42DB3ED6700495CBD /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		5E4428F62DB3ED6700495CBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E4428F82DB3ED6700495CBD /* BrnoFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoFoodView.swift; sourceTree = "<group>"; };
+		5E4428F92DB3ED6700495CBD /* BrnoNatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoNatureView.swift; sourceTree = "<group>"; };
+		5E4428FA2DB3ED6700495CBD /* BrnoUniversitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoUniversitiesView.swift; sourceTree = "<group>"; };
+		5E4428FB2DB3ED6700495CBD /* CompetitiveSportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitiveSportsView.swift; sourceTree = "<group>"; };
+		5E4428FC2DB3ED6700495CBD /* MostVisitedAreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostVisitedAreasView.swift; sourceTree = "<group>"; };
+		5E4428FD2DB3ED6700495CBD /* PopulationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationDetailView.swift; sourceTree = "<group>"; };
+		5E4428FE2DB3ED6700495CBD /* RecommendedTripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTripsView.swift; sourceTree = "<group>"; };
+		5E4429002DB3ED6700495CBD /* BrnoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoTabView.swift; sourceTree = "<group>"; };
+		5E4429022DB3ED6700495CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E4429032DB3ED6700495CBD /* BrnoAppkaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoAppkaApp.swift; sourceTree = "<group>"; };
+		5E4429042DB3ED6700495CBD /* BrnoMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoMapView.swift; sourceTree = "<group>"; };
+		5E4429132DB3ED8300495CBD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5E4429162DB3EF0500495CBD /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		5E44291A2DB3F3C700495CBD /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		5E44291D2DB3F46C00495CBD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5E44291F2DB3F70F00495CBD /* PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceStore.swift; sourceTree = "<group>"; };
+		5E4429212DB3F93E00495CBD /* DestinationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCardView.swift; sourceTree = "<group>"; };
+		5E4429232DB3FF6000495CBD /* AddMemorySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemorySheet.swift; sourceTree = "<group>"; };
+		5E84E4D12DBA836100594636 /* FoodAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAnnotation.swift; sourceTree = "<group>"; };
+		5E84E4D92DBAABAC00594636 /* PromotionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCardView.swift; sourceTree = "<group>"; };
+		5E84E4DB2DBAAC3500594636 /* PlaceCategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategoryPickerView.swift; sourceTree = "<group>"; };
+		5E84E4DD2DBAC28900594636 /* FullScreenPhotoViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenPhotoViewer.swift; sourceTree = "<group>"; };
+		5E84E4DF2DBAD5B900594636 /* MemoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardView.swift; sourceTree = "<group>"; };
+		5E84E4E32DBAE21F00594636 /* BrnoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrnoViewModel.swift; sourceTree = "<group>"; };
+		5E8EBB492DB7728300CC7029 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		5E8EBB4B2DB772D600CC7029 /* ChartDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataTypes.swift; sourceTree = "<group>"; };
+		5E8EBB4D2DB772FC00CC7029 /* ChartHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartHelper.swift; sourceTree = "<group>"; };
+		5E8EBB4F2DB777D900CC7029 /* ChartEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartEmptyView.swift; sourceTree = "<group>"; };
+		5E8EBB532DB7890100CC7029 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		5E8EBB552DB793D700CC7029 /* FoodPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPlace.swift; sourceTree = "<group>"; };
+		5E8EBB572DB7942900CC7029 /* FoodPlaceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPlaceRowView.swift; sourceTree = "<group>"; };
+		5E8EBB592DB796FB00CC7029 /* PlaceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceLocation.swift; sourceTree = "<group>"; };
+		5E8EBB5C2DB7C5F400CC7029 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		5E8EBB5E2DB7C5FD00CC7029 /* UniversityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityData.swift; sourceTree = "<group>"; };
+		5E8EBB602DB7C61000CC7029 /* UniversityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailView.swift; sourceTree = "<group>"; };
+		5E8EBB622DB7C99D00CC7029 /* UniversityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityCardView.swift; sourceTree = "<group>"; };
+		5EEEFB6C2DB1136E0055A483 /* BrnoAppka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrnoAppka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EEEFB692DB1136E0055A483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1C833F2DB8D9D500E88985 /* Recommended */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428FE2DB3ED6700495CBD /* RecommendedTripsView.swift */,
+				5E1C83442DB8DBC300E88985 /* TripCardView.swift */,
+				5E1C83402DB8DA1000E88985 /* RecommendedTrip.swift */,
+				5E1C83422DB8DA4500E88985 /* RecommendedTripData.swift */,
+			);
+			path = Recommended;
+			sourceTree = "<group>";
+		};
+		5E1C83462DB8E5D000E88985 /* Nature */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428F92DB3ED6700495CBD /* BrnoNatureView.swift */,
+				5E1C834B2DB8E67500E88985 /* NatureSpotCardView.swift */,
+				5E1C83472DB8E5E000E88985 /* NatureSpot.swift */,
+				5E1C83492DB8E60200E88985 /* NatureSpotData.swift */,
+			);
+			path = Nature;
+			sourceTree = "<group>";
+		};
+		5E1C834D2DB8EBC900E88985 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428FB2DB3ED6700495CBD /* CompetitiveSportsView.swift */,
+				5E1C83522DB8EC6300E88985 /* BrnoSportCardView.swift */,
+				5E1C834E2DB8EBF000E88985 /* BrnoSportTeam.swift */,
+				5E1C83502DB8EC2A00E88985 /* BrnoSportTeamData.swift */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		5E1C83562DB9162700E88985 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C83572DB9163600E88985 /* Tab.swift */,
+				5E3C6F012DBA30030090A685 /* PlaceCategory.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5E1C83592DB9165800E88985 /* CustomMade */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C835A2DB9167600E88985 /* CustomTabBarView.swift */,
+				5E1C83542DB90E7E00E88985 /* FoodCategoryFilterCard.swift */,
+				5E1C835C2DB9221600E88985 /* TabRouter.swift */,
+			);
+			path = CustomMade;
+			sourceTree = "<group>";
+		};
+		5E2D18C62DB67A30004DA448 /* Population */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428FD2DB3ED6700495CBD /* PopulationDetailView.swift */,
+				5E2D18CF2DB68668004DA448 /* ChartAnnotationView.swift */,
+				5E8EBB4F2DB777D900CC7029 /* ChartEmptyView.swift */,
+				5E2D18CB2DB67CA1004DA448 /* BrnoPopulationChart.swift */,
+				5E2D18CD2DB685C6004DA448 /* ChartContainer.swift */,
+				5E8EBB4B2DB772D600CC7029 /* ChartDataTypes.swift */,
+				5E8EBB4D2DB772FC00CC7029 /* ChartHelper.swift */,
+				5E2D18C72DB67A4E004DA448 /* PopulationData.swift */,
+				5E2D18C92DB67C6E004DA448 /* PopulationMockData.swift */,
+			);
+			path = Population;
+			sourceTree = "<group>";
+		};
+		5E4428F52DB3ED6700495CBD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428F42DB3ED6700495CBD /* Color+Ext.swift */,
+				5E3C6F032DBA352D0090A685 /* PlaceStore+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E4428F72DB3ED6700495CBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428F62DB3ED6700495CBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E4428FF2DB3ED6700495CBD /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				5E4429132DB3ED8300495CBD /* HomeView.swift */,
+				5E3C6EFD2DBA26920090A685 /* SearchBarView.swift */,
+				5E3C6EFF2DBA2CCA0090A685 /* PlaceSearchHelper.swift */,
+				5E84E4D92DBAABAC00594636 /* PromotionCardView.swift */,
+				5E84E4DB2DBAAC3500594636 /* PlaceCategoryPickerView.swift */,
+				5E4429152DB3EEDB00495CBD /* Cards */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		5E4429012DB3ED6700495CBD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5E4429002DB3ED6700495CBD /* BrnoTabView.swift */,
+				5E44291C2DB3F45D00495CBD /* ProfileView */,
+				5E4429192DB3F3A800495CBD /* FavouritesView */,
+				5E4429182DB3F35300495CBD /* MapView */,
+				5E4428FF2DB3ED6700495CBD /* HomeView */,
+				5E84E4E32DBAE21F00594636 /* BrnoViewModel.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5E4429052DB3ED6700495CBD /* BrnoAppka */ = {
+			isa = PBXGroup;
+			children = (
+				5E4429032DB3ED6700495CBD /* BrnoAppkaApp.swift */,
+				5E3C6F052DBA390D0090A685 /* AllPlacesData.swift */,
+				5E1C83592DB9165800E88985 /* CustomMade */,
+				5E1C83562DB9162700E88985 /* Enums */,
+				5E8EBB482DB7726100CC7029 /* Utilities */,
+				5E4428F52DB3ED6700495CBD /* Extensions */,
+				5E4428F72DB3ED6700495CBD /* Preview Content */,
+				5E4429012DB3ED6700495CBD /* Screens */,
+				5E4429022DB3ED6700495CBD /* Assets.xcassets */,
+			);
+			path = BrnoAppka;
+			sourceTree = "<group>";
+		};
+		5E4429152DB3EEDB00495CBD /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C834D2DB8EBC900E88985 /* Sports */,
+				5E1C83462DB8E5D000E88985 /* Nature */,
+				5E1C833F2DB8D9D500E88985 /* Recommended */,
+				5E8EBB5B2DB7C46400CC7029 /* Universities */,
+				5E8EBB522DB785C400CC7029 /* Food */,
+				5E8EBB512DB7818800CC7029 /* Visited Areas */,
+				5E2D18C62DB67A30004DA448 /* Population */,
+				5E4429162DB3EF0500495CBD /* CardsView.swift */,
+				5E4429212DB3F93E00495CBD /* DestinationCardView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		5E4429182DB3F35300495CBD /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				5E4429042DB3ED6700495CBD /* BrnoMapView.swift */,
+				5E84E4D12DBA836100594636 /* FoodAnnotation.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		5E4429192DB3F3A800495CBD /* FavouritesView */ = {
+			isa = PBXGroup;
+			children = (
+				5E44291A2DB3F3C700495CBD /* FavouritesView.swift */,
+				5E44291F2DB3F70F00495CBD /* PlaceStore.swift */,
+			);
+			path = FavouritesView;
+			sourceTree = "<group>";
+		};
+		5E44291C2DB3F45D00495CBD /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				5E44291D2DB3F46C00495CBD /* ProfileView.swift */,
+				5E84E4DF2DBAD5B900594636 /* MemoryCardView.swift */,
+				5E4429232DB3FF6000495CBD /* AddMemorySheet.swift */,
+				5E2D18C42DB6686F004DA448 /* MemoryStore.swift */,
+				5E84E4DD2DBAC28900594636 /* FullScreenPhotoViewer.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		5E8EBB482DB7726100CC7029 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E8EBB492DB7728300CC7029 /* Date+Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5E8EBB512DB7818800CC7029 /* Visited Areas */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428FC2DB3ED6700495CBD /* MostVisitedAreasView.swift */,
+				5E3C6F072DBA3B520090A685 /* VisitedAreaData.swift */,
+			);
+			path = "Visited Areas";
+			sourceTree = "<group>";
+		};
+		5E8EBB522DB785C400CC7029 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428F82DB3ED6700495CBD /* BrnoFoodView.swift */,
+				5E8EBB572DB7942900CC7029 /* FoodPlaceRowView.swift */,
+				5E8EBB532DB7890100CC7029 /* FoodData.swift */,
+				5E8EBB552DB793D700CC7029 /* FoodPlace.swift */,
+				5E8EBB592DB796FB00CC7029 /* PlaceLocation.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		5E8EBB5B2DB7C46400CC7029 /* Universities */ = {
+			isa = PBXGroup;
+			children = (
+				5E4428FA2DB3ED6700495CBD /* BrnoUniversitiesView.swift */,
+				5E1C833D2DB8D37600E88985 /* UniversityStudentChart.swift */,
+				5E8EBB622DB7C99D00CC7029 /* UniversityCardView.swift */,
+				5E8EBB602DB7C61000CC7029 /* UniversityDetailView.swift */,
+				5E8EBB5C2DB7C5F400CC7029 /* University.swift */,
+				5E8EBB5E2DB7C5FD00CC7029 /* UniversityData.swift */,
+				5E1C833B2DB8C6E000E88985 /* UniversityFacultyChart.swift */,
+				5E1C83392DB8C3A800E88985 /* FacultyStudentStat.swift */,
+			);
+			path = Universities;
+			sourceTree = "<group>";
+		};
+		5EEEFB632DB1136E0055A483 = {
+			isa = PBXGroup;
+			children = (
+				5E4429052DB3ED6700495CBD /* BrnoAppka */,
+				5EEEFB6D2DB1136E0055A483 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EEEFB6D2DB1136E0055A483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EEEFB6C2DB1136E0055A483 /* BrnoAppka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EEEFB6B2DB1136E0055A483 /* BrnoAppka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEEFB7A2DB113700055A483 /* Build configuration list for PBXNativeTarget "BrnoAppka" */;
+			buildPhases = (
+				5EEEFB682DB1136E0055A483 /* Sources */,
+				5EEEFB692DB1136E0055A483 /* Frameworks */,
+				5EEEFB6A2DB1136E0055A483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrnoAppka;
+			packageProductDependencies = (
+			);
+			productName = BrnoAppka;
+			productReference = 5EEEFB6C2DB1136E0055A483 /* BrnoAppka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EEEFB642DB1136E0055A483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5EEEFB6B2DB1136E0055A483 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 5EEEFB672DB1136E0055A483 /* Build configuration list for PBXProject "BrnoAppka" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EEEFB632DB1136E0055A483;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5EEEFB6D2DB1136E0055A483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EEEFB6B2DB1136E0055A483 /* BrnoAppka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EEEFB6A2DB1136E0055A483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4429062DB3ED6700495CBD /* Preview Assets.xcassets in Resources */,
+				5E4429072DB3ED6700495CBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EEEFB682DB1136E0055A483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1C83552DB90E7E00E88985 /* FoodCategoryFilterCard.swift in Sources */,
+				5E1C834C2DB8E67500E88985 /* NatureSpotCardView.swift in Sources */,
+				5E2D18CA2DB67C6E004DA448 /* PopulationMockData.swift in Sources */,
+				5E3C6EFE2DBA26920090A685 /* SearchBarView.swift in Sources */,
+				5E2D18C82DB67A4E004DA448 /* PopulationData.swift in Sources */,
+				5E1C83512DB8EC2A00E88985 /* BrnoSportTeamData.swift in Sources */,
+				5E4429082DB3ED6700495CBD /* Color+Ext.swift in Sources */,
+				5E3C6F082DBA3B520090A685 /* VisitedAreaData.swift in Sources */,
+				5E3C6F022DBA30030090A685 /* PlaceCategory.swift in Sources */,
+				5E4429092DB3ED6700495CBD /* BrnoFoodView.swift in Sources */,
+				5E1C83582DB9163600E88985 /* Tab.swift in Sources */,
+				5E2D18D02DB68668004DA448 /* ChartAnnotationView.swift in Sources */,
+				5E2D18CC2DB67CA1004DA448 /* BrnoPopulationChart.swift in Sources */,
+				5E1C835D2DB9221600E88985 /* TabRouter.swift in Sources */,
+				5E8EBB632DB7C99D00CC7029 /* UniversityCardView.swift in Sources */,
+				5E44290A2DB3ED6700495CBD /* BrnoNatureView.swift in Sources */,
+				5E44290B2DB3ED6700495CBD /* BrnoUniversitiesView.swift in Sources */,
+				5E8EBB5D2DB7C5F400CC7029 /* University.swift in Sources */,
+				5E1C83482DB8E5E000E88985 /* NatureSpot.swift in Sources */,
+				5E84E4DA2DBAABAC00594636 /* PromotionCardView.swift in Sources */,
+				5E1C83412DB8DA1000E88985 /* RecommendedTrip.swift in Sources */,
+				5E84E4E02DBAD5B900594636 /* MemoryCardView.swift in Sources */,
+				5E3C6F062DBA390D0090A685 /* AllPlacesData.swift in Sources */,
+				5E44290C2DB3ED6700495CBD /* CompetitiveSportsView.swift in Sources */,
+				5E4429222DB3F93E00495CBD /* DestinationCardView.swift in Sources */,
+				5E1C83532DB8EC6300E88985 /* BrnoSportCardView.swift in Sources */,
+				5E1C834A2DB8E60200E88985 /* NatureSpotData.swift in Sources */,
+				5E4429242DB3FF6000495CBD /* AddMemorySheet.swift in Sources */,
+				5E1C835B2DB9167600E88985 /* CustomTabBarView.swift in Sources */,
+				5E8EBB562DB793D700CC7029 /* FoodPlace.swift in Sources */,
+				5E84E4DC2DBAAC3500594636 /* PlaceCategoryPickerView.swift in Sources */,
+				5E8EBB5F2DB7C5FD00CC7029 /* UniversityData.swift in Sources */,
+				5E8EBB5A2DB796FB00CC7029 /* PlaceLocation.swift in Sources */,
+				5E8EBB4E2DB772FC00CC7029 /* ChartHelper.swift in Sources */,
+				5E3C6F042DBA352D0090A685 /* PlaceStore+Ext.swift in Sources */,
+				5E8EBB612DB7C61000CC7029 /* UniversityDetailView.swift in Sources */,
+				5E44290D2DB3ED6700495CBD /* MostVisitedAreasView.swift in Sources */,
+				5E44290E2DB3ED6700495CBD /* PopulationDetailView.swift in Sources */,
+				5E84E4DE2DBAC28900594636 /* FullScreenPhotoViewer.swift in Sources */,
+				5E3C6F002DBA2CCA0090A685 /* PlaceSearchHelper.swift in Sources */,
+				5E2D18C52DB6686F004DA448 /* MemoryStore.swift in Sources */,
+				5E44291E2DB3F46C00495CBD /* ProfileView.swift in Sources */,
+				5E44290F2DB3ED6700495CBD /* RecommendedTripsView.swift in Sources */,
+				5E4429102DB3ED6700495CBD /* BrnoTabView.swift in Sources */,
+				5E1C834F2DB8EBF000E88985 /* BrnoSportTeam.swift in Sources */,
+				5E4429172DB3EF0500495CBD /* CardsView.swift in Sources */,
+				5E2D18CE2DB685C6004DA448 /* ChartContainer.swift in Sources */,
+				5E4429142DB3ED8300495CBD /* HomeView.swift in Sources */,
+				5E1C833E2DB8D37600E88985 /* UniversityStudentChart.swift in Sources */,
+				5E8EBB4A2DB7728300CC7029 /* Date+Utils.swift in Sources */,
+				5E4429112DB3ED6700495CBD /* BrnoAppkaApp.swift in Sources */,
+				5E8EBB502DB777D900CC7029 /* ChartEmptyView.swift in Sources */,
+				5E4429202DB3F70F00495CBD /* PlaceStore.swift in Sources */,
+				5E44291B2DB3F3C700495CBD /* FavouritesView.swift in Sources */,
+				5E8EBB4C2DB772D600CC7029 /* ChartDataTypes.swift in Sources */,
+				5E1C833A2DB8C3A800E88985 /* FacultyStudentStat.swift in Sources */,
+				5E84E4D22DBA836100594636 /* FoodAnnotation.swift in Sources */,
+				5E4429122DB3ED6700495CBD /* BrnoMapView.swift in Sources */,
+				5E1C83432DB8DA4500E88985 /* RecommendedTripData.swift in Sources */,
+				5E1C833C2DB8C6E000E88985 /* UniversityFacultyChart.swift in Sources */,
+				5E8EBB542DB7890100CC7029 /* FoodData.swift in Sources */,
+				5E84E4E42DBAE21F00594636 /* BrnoViewModel.swift in Sources */,
+				5E8EBB582DB7942900CC7029 /* FoodPlaceRowView.swift in Sources */,
+				5E1C83452DB8DBC300E88985 /* TripCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5EEEFB782DB113700055A483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EEEFB792DB113700055A483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EEEFB7B2DB113700055A483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrnoAppka/Preview Content\"";
+				DEVELOPMENT_TEAM = 2MDW7238R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timotejmagulak.BrnoAppka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EEEFB7C2DB113700055A483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrnoAppka/Preview Content\"";
+				DEVELOPMENT_TEAM = 2MDW7238R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timotejmagulak.BrnoAppka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EEEFB672DB1136E0055A483 /* Build configuration list for PBXProject "BrnoAppka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEEFB782DB113700055A483 /* Debug */,
+				5EEEFB792DB113700055A483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEEFB7A2DB113700055A483 /* Build configuration list for PBXNativeTarget "BrnoAppka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEEFB7B2DB113700055A483 /* Debug */,
+				5EEEFB7C2DB113700055A483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EEEFB642DB1136E0055A483 /* Project object */;
+}

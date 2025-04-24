@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Brno-Trnitá_-_Vlněna_Office_Park,_pohled_z_Vaňkovky_obr02.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TripCardView: View {
+    
     let trip: RecommendedTrip
 
     var body: some View {

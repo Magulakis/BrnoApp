@@ -15,7 +15,7 @@ struct FoodPlace: Identifiable {
     let imageName: String
     let websiteURL: URL?
     let contact: String?
-    let locationURL: URL?  // optional, but can stay
+    let locationURL: URL?  
     let latitude: Double?
     let longitude: Double?
 }

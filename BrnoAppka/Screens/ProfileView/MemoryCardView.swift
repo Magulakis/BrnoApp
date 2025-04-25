@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MemoryCardView: View {
+    
     let image: UIImage
     let description: String
     let onTap: () -> Void

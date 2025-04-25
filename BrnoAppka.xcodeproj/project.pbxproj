@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5E1C833A2DB8C3A800E88985 /* FacultyStudentStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83392DB8C3A800E88985 /* FacultyStudentStat.swift */; };
 		5E1C833C2DB8C6E000E88985 /* UniversityFacultyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C833B2DB8C6E000E88985 /* UniversityFacultyChart.swift */; };
-		5E1C833E2DB8D37600E88985 /* UniversityStudentChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C833D2DB8D37600E88985 /* UniversityStudentChart.swift */; };
 		5E1C83412DB8DA1000E88985 /* RecommendedTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83402DB8DA1000E88985 /* RecommendedTrip.swift */; };
 		5E1C83432DB8DA4500E88985 /* RecommendedTripData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83422DB8DA4500E88985 /* RecommendedTripData.swift */; };
 		5E1C83452DB8DBC300E88985 /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C83442DB8DBC300E88985 /* TripCardView.swift */; };
@@ -32,7 +31,6 @@
 		5E3C6EFE2DBA26920090A685 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6EFD2DBA26920090A685 /* SearchBarView.swift */; };
 		5E3C6F002DBA2CCA0090A685 /* PlaceSearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6EFF2DBA2CCA0090A685 /* PlaceSearchHelper.swift */; };
 		5E3C6F022DBA30030090A685 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6F012DBA30030090A685 /* PlaceCategory.swift */; };
-		5E3C6F042DBA352D0090A685 /* PlaceStore+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6F032DBA352D0090A685 /* PlaceStore+Ext.swift */; };
 		5E3C6F062DBA390D0090A685 /* AllPlacesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6F052DBA390D0090A685 /* AllPlacesData.swift */; };
 		5E3C6F082DBA3B520090A685 /* VisitedAreaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C6F072DBA3B520090A685 /* VisitedAreaData.swift */; };
 		5E4429062DB3ED6700495CBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4428F62DB3ED6700495CBD /* Preview Assets.xcassets */; };
@@ -78,7 +76,6 @@
 /* Begin PBXFileReference section */
 		5E1C83392DB8C3A800E88985 /* FacultyStudentStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyStudentStat.swift; sourceTree = "<group>"; };
 		5E1C833B2DB8C6E000E88985 /* UniversityFacultyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityFacultyChart.swift; sourceTree = "<group>"; };
-		5E1C833D2DB8D37600E88985 /* UniversityStudentChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityStudentChart.swift; sourceTree = "<group>"; };
 		5E1C83402DB8DA1000E88985 /* RecommendedTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrip.swift; sourceTree = "<group>"; };
 		5E1C83422DB8DA4500E88985 /* RecommendedTripData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTripData.swift; sourceTree = "<group>"; };
 		5E1C83442DB8DBC300E88985 /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
@@ -101,7 +98,6 @@
 		5E3C6EFD2DBA26920090A685 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		5E3C6EFF2DBA2CCA0090A685 /* PlaceSearchHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchHelper.swift; sourceTree = "<group>"; };
 		5E3C6F012DBA30030090A685 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
-		5E3C6F032DBA352D0090A685 /* PlaceStore+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaceStore+Ext.swift"; sourceTree = "<group>"; };
 		5E3C6F052DBA390D0090A685 /* AllPlacesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPlacesData.swift; sourceTree = "<group>"; };
 		5E3C6F072DBA3B520090A685 /* VisitedAreaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedAreaData.swift; sourceTree = "<group>"; };
 		5E4428F42DB3ED6700495CBD /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
@@ -228,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				5E4428F42DB3ED6700495CBD /* Color+Ext.swift */,
-				5E3C6F032DBA352D0090A685 /* PlaceStore+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -362,7 +357,6 @@
 			isa = PBXGroup;
 			children = (
 				5E4428FA2DB3ED6700495CBD /* BrnoUniversitiesView.swift */,
-				5E1C833D2DB8D37600E88985 /* UniversityStudentChart.swift */,
 				5E8EBB622DB7C99D00CC7029 /* UniversityCardView.swift */,
 				5E8EBB602DB7C61000CC7029 /* UniversityDetailView.swift */,
 				5E8EBB5C2DB7C5F400CC7029 /* University.swift */,
@@ -496,7 +490,6 @@
 				5E8EBB5F2DB7C5FD00CC7029 /* UniversityData.swift in Sources */,
 				5E8EBB5A2DB796FB00CC7029 /* PlaceLocation.swift in Sources */,
 				5E8EBB4E2DB772FC00CC7029 /* ChartHelper.swift in Sources */,
-				5E3C6F042DBA352D0090A685 /* PlaceStore+Ext.swift in Sources */,
 				5E8EBB612DB7C61000CC7029 /* UniversityDetailView.swift in Sources */,
 				5E44290D2DB3ED6700495CBD /* MostVisitedAreasView.swift in Sources */,
 				5E44290E2DB3ED6700495CBD /* PopulationDetailView.swift in Sources */,
@@ -510,7 +503,6 @@
 				5E4429172DB3EF0500495CBD /* CardsView.swift in Sources */,
 				5E2D18CE2DB685C6004DA448 /* ChartContainer.swift in Sources */,
 				5E4429142DB3ED8300495CBD /* HomeView.swift in Sources */,
-				5E1C833E2DB8D37600E88985 /* UniversityStudentChart.swift in Sources */,
 				5E8EBB4A2DB7728300CC7029 /* Date+Utils.swift in Sources */,
 				5E4429112DB3ED6700495CBD /* BrnoAppkaApp.swift in Sources */,
 				5E8EBB502DB777D900CC7029 /* ChartEmptyView.swift in Sources */,

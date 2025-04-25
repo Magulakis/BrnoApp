@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BrnoNatureView: View {
+    
     let spots = NatureSpotData.spots
 
     var body: some View {

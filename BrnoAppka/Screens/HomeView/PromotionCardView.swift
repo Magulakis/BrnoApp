@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PromotionCardView: View {
+    
     let card: PromotionCard
 
     var body: some View {

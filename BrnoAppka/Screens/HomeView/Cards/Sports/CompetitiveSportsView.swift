@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CompetitiveSportsView: View {
+    
     let teams = BrnoSportTeamData.teams
 
     var body: some View {

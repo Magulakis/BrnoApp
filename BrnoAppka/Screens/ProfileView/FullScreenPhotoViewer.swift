@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FullscreenPhotoViewer: View {
+    
     @Binding var selectedIndex: Int
     @Binding var isPresented: Bool
     let images: [UIImage]

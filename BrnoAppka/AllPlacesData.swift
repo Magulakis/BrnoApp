@@ -8,6 +8,7 @@
 import Foundation
 
 struct AllPlacesData {
+    
     static func generateAllPlaces() -> [Place] {
         var result: [Place] = []
 

@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct FoodPlaceRowView: View {
+    
     let place: FoodPlace
     let onLocationTap: (FoodPlace) -> Void
 

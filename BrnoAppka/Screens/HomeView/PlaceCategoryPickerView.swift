@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PlaceCategoryPickerView: View {
+    
     @Binding var selectedCategory: PlaceCategory
 
     var body: some View {

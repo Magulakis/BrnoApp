@@ -26,6 +26,7 @@ let promotionCards: [PromotionCard] = [
 ]
 
 struct HomeView: View {
+    
     @EnvironmentObject var placeStore: PlaceStore
     @Binding var resetTrigger: Bool
     @State private var path = NavigationPath()

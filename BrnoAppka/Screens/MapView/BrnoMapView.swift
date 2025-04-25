@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct BrnoMapView: View {
+    
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 49.1951, longitude: 16.6068),
         span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)

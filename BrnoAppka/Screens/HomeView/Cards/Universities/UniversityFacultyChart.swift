@@ -9,6 +9,7 @@ import SwiftUI
 import Charts
 
 struct UniversityFacultyChart: View {
+    
     let stats: [FacultyStudentStat]
 
     var body: some View {

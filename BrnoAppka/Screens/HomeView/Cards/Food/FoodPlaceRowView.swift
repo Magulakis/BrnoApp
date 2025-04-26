@@ -27,7 +27,7 @@ struct FoodPlaceRowView: View {
 
             Text(place.description)
                 .font(.subheadline)
-                .foregroundColor(.secondary)
+                .foregroundStyle(.secondary)
 
             HStack(spacing: 16) {
                 if let url = place.websiteURL {
@@ -36,7 +36,7 @@ struct FoodPlaceRowView: View {
                             .resizable()
                             .scaledToFit()
                             .frame(width: 20, height: 20)
-                            .foregroundColor(.white)
+                            .foregroundStyle(.white)
                             .padding(14)
                             .background(Color.brandDarkGreen)
                             .clipShape(Circle())
@@ -53,7 +53,7 @@ struct FoodPlaceRowView: View {
                             .resizable()
                             .scaledToFit()
                             .frame(width: 20, height: 20)
-                            .foregroundColor(.white)
+                            .foregroundStyle(.white)
                             .padding(14)
                             .background(Color.brandSage)
                             .clipShape(Circle())
@@ -67,7 +67,7 @@ struct FoodPlaceRowView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 20, height: 20)
-                        .foregroundColor(.white)
+                        .foregroundStyle(.white)
                         .padding(14)
                         .background(Color.brandWarmRose)
                         .clipShape(Circle())

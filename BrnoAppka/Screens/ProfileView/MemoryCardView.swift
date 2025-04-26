@@ -27,7 +27,7 @@ struct MemoryCardView: View {
 
             Text(description)
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundStyle(.gray)
                 .lineLimit(2)
         }
         .padding()

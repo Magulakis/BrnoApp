@@ -22,11 +22,11 @@ struct ChartAnnotationView: View {
             Text(formattedValue(for: data.value))
                 .font(.headline)
                 .bold()
-                .foregroundColor(.primary)
+                .foregroundStyle(.primary)
 
             Text(formattedDate(for: data.date))
                 .font(.caption)
-                .foregroundColor(.secondary)
+                .foregroundStyle(.secondary)
         }
         .padding(8)
         .background(RoundedRectangle(cornerRadius: 10).fill(Color(.systemBackground)))

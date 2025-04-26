@@ -28,7 +28,7 @@ struct UniversityFacultyChart: View {
                     .annotation(position: .trailing) {
                         Text("\(stat.total)")
                             .font(.caption)
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(.secondary)
                     }
                 }
             }

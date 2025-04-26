@@ -44,9 +44,9 @@ struct AddMemorySheet: View {
                                     VStack {
                                         Image(systemName: "photo")
                                             .font(.system(size: 40))
-                                            .foregroundColor(.gray)
+                                            .foregroundStyle(.gray)
                                         Text("Tap to select photo")
-                                            .foregroundColor(.gray)
+                                            .foregroundStyle(.gray)
                                     }
                                 )
                         }
@@ -68,7 +68,7 @@ struct AddMemorySheet: View {
                 }
                         .padding()
                         .background(Color.brandDarkGreen)
-                        .foregroundColor(.white)
+                        .foregroundStyle(.white)
                         .cornerRadius(10)
                     
                     Spacer()

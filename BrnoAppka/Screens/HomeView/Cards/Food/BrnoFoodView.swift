@@ -62,7 +62,7 @@ struct BrnoFoodView: View {
                     } label: {
                         Image(systemName: "line.3.horizontal.decrease.circle")
                             .font(.footnote)
-                            .foregroundColor(.white)
+                            .foregroundStyle(.white)
                             .padding(7)
                             .background(Color.brandWarmRose)
                             .clipShape(Circle())
@@ -80,7 +80,7 @@ struct BrnoFoodView: View {
                                 Image(systemName: "fork.knife")
                                     .padding(8)
                                     .background(Color.brandWarmRose)
-                                    .foregroundColor(.white)
+                                    .foregroundStyle(.white)
                                     .clipShape(Circle())
                                 Text(item.name)
                                     .font(.caption)

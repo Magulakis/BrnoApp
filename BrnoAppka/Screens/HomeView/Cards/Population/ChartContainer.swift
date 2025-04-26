@@ -32,14 +32,14 @@ struct ChartContainer<Content: View>: View {
         VStack(alignment: .leading, spacing: 16) {
             HStack(spacing: 10) {
                 Image(systemName: config.symbol)
-                    .foregroundColor(.brandDarkGreen)
+                    .foregroundStyle(Color.brandDarkGreen)
                 VStack(alignment: .leading) {
                     Text(config.title)
                         .font(.title2)
                         .fontWeight(.bold)
                     Text(config.subtitle)
                         .font(.subheadline)
-                        .foregroundColor(.gray)
+                        .foregroundStyle(.gray)
                 }
             }
 

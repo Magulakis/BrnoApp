@@ -25,7 +25,7 @@ struct NatureSpotCardView: View {
 
             Text(spot.description)
                 .font(.subheadline)
-                .foregroundColor(.secondary)
+                .foregroundStyle(.secondary)
 
             VStack(alignment: .leading) {
                 Text("Highlights:")

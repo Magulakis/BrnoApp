@@ -20,10 +20,10 @@ struct PromotionCardView: View {
                     VStack(alignment: .leading, spacing: 6) {
                         Text(card.title)
                             .font(.subheadline.bold())
-                            .foregroundColor(.primary)
+                            .foregroundStyle(.primary)
                         Text(card.subtitle)
                             .font(.caption)
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(.secondary)
                         Spacer()
                         Text("Tap for more")
                             .font(.caption2)

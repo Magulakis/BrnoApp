@@ -9,8 +9,8 @@ import SwiftUI
 
 struct CardsView: View {
     
-    var title: String
-    var subtitle: String
+    let title: String
+    let subtitle: String
     
     var body: some View {
         RoundedRectangle(cornerRadius: 15)

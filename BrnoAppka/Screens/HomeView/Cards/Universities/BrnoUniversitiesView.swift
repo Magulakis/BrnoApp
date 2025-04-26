@@ -26,11 +26,11 @@ struct BrnoUniversitiesView: View {
                                     VStack(alignment: .leading, spacing: 6) {
                                         Text(university.name)
                                             .font(.headline)
-                                            .foregroundColor(.primary)
+                                            .foregroundStyle(.primary)
 
                                         Text(university.description)
                                             .font(.subheadline)
-                                            .foregroundColor(.secondary)
+                                            .foregroundStyle(.secondary)
                                             .lineLimit(3)
                                     }
 

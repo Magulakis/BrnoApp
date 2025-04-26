@@ -55,7 +55,7 @@ struct MostVisitedAreasView: View {
 
                         Text(area.description)
                             .font(.subheadline)
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(.secondary)
                     }
                     .padding()
                     .background(Color.brandSoftSand.opacity(0.15))

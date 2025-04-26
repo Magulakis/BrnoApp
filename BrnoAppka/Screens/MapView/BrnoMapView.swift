@@ -27,7 +27,7 @@ struct BrnoMapView: View {
                     Image(systemName: "fork.knife.circle.fill")
                         .resizable()
                         .frame(width: 30, height: 30)
-                        .foregroundColor(.brandWarmRose)
+                        .foregroundStyle(Color.brandWarmRose)
                         .background(Circle().fill(Color.white).shadow(radius: 3))
 
                     Text(place.name)

@@ -27,14 +27,14 @@ struct BrnoSportCardView: View {
 
             Text("Sport: \(team.sport)")
                 .font(.subheadline)
-                .foregroundColor(.secondary)
+                .foregroundStyle(.secondary)
 
             Text(team.description)
                 .font(.subheadline)
 
             Text("📍 Address: \(team.stadiumAddress)")
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundStyle(.gray)
         }
         .padding()
         .background(Color.brandSoftSand.opacity(0.2))

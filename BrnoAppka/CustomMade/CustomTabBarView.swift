@@ -23,10 +23,11 @@ struct CustomTabBarView: View {
         .padding(.top, 10)
         .padding(.bottom, 20)
         .frame(maxWidth: .infinity)
-        .background(Color.white)
+        .background(.white)
         .shadow(radius: 3)
     }
 
+    @ViewBuilder 
     private func tabBarButton(icon: String, tab: Tab) -> some View {
         Button {
             if tab == .home {
@@ -38,8 +39,9 @@ struct CustomTabBarView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 25, height: 25)
-                .foregroundColor(selectedTab == tab ? .brandWarmRose : .gray)
+                .foregroundStyle(selectedTab == tab ? Color.brandWarmRose : .gray)
                 .padding(12)
+        
         }
     }
 }

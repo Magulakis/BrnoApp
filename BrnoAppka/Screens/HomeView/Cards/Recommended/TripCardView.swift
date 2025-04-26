@@ -25,7 +25,7 @@ struct TripCardView: View {
 
             Text(trip.description)
                 .font(.subheadline)
-                .foregroundColor(.secondary)
+                .foregroundStyle(.secondary)
 
             VStack(alignment: .leading) {
                 Text("What to see:")
@@ -39,7 +39,7 @@ struct TripCardView: View {
 
             Text("💰 Estimated cost: \(trip.estimatedCostCZK) CZK")
                 .font(.caption)
-                .foregroundColor(Color.warmRose)
+                .foregroundStyle(Color.warmRose)
         }
         .padding()
         .background(Color.brandSoftSand.opacity(0.2))

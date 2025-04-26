@@ -22,7 +22,7 @@ struct DestinationCardView: View {
 
                     Text(place.location)
                         .font(.subheadline)
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(.secondary)
                 }
 
                 Spacer()
@@ -36,7 +36,7 @@ struct DestinationCardView: View {
                         .background(Color.white)
                         .clipShape(Circle())
                         .shadow(radius: 2)
-                        .foregroundColor(place.isFavorite ? .warmRose : .gray)
+                        .foregroundStyle(place.isFavorite ? Color.warmRose : .gray)
                 }
                 .buttonStyle(.plain)
             }

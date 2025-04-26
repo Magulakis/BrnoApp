@@ -46,7 +46,7 @@ struct FullscreenPhotoViewer: View {
                 }
             } else {
                 Text("No Image")
-                    .foregroundColor(.gray)
+                    .foregroundStyle(.gray)
             }
         }
         .background(Color.black)

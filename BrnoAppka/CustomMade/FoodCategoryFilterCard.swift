@@ -18,7 +18,7 @@ struct FoodCategoryFilterCard: View {
             ForEach(categories, id: \.self) { category in
                 Text(category)
                     .font(.subheadline)
-                    .foregroundColor(selectedCategory == category ? .white : .primary)
+                    .foregroundStyle(selectedCategory == category ? .white : .primary)
                     .padding(.vertical, 8)
                     .padding(.horizontal, 16)
                     .background(selectedCategory == category ? Color.brandDarkGreen : Color.clear)

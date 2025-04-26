@@ -10,8 +10,8 @@ import SwiftUI
 
 struct BrnoTabView: View {
     
-    @StateObject var tabManager = TabSelectionManager()
-    @StateObject var viewModel = BrnoViewModel()
+    @StateObject private var tabManager = TabSelectionManager()
+    @StateObject private var viewModel = BrnoViewModel()
 
     var body: some View {
         ZStack(alignment: .bottom) {

@@ -54,7 +54,7 @@ struct ProfileView: View {
 
                                                 Text(memory.description)
                                                     .font(.caption)
-                                                    .foregroundColor(.gray)
+                                                    .foregroundStyle(.gray)
                                                     .lineLimit(2)
                                             }
                                             .padding(6)
@@ -76,7 +76,7 @@ struct ProfileView: View {
                         .font(.title2)
                         .padding(12)
                         .background(Color.brandDarkGreen)
-                        .foregroundColor(.white)
+                        .foregroundStyle(.white)
                         .clipShape(Circle())
                         .shadow(radius: 3)
                     Spacer()

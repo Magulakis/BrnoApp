@@ -32,7 +32,7 @@ struct UniversityCardView: View {
 
                 Text(university.description)
                     .font(.subheadline)
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(.secondary)
                     .multilineTextAlignment(.leading)
                     .lineLimit(3)
                     .minimumScaleFactor(0.65)

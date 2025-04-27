@@ -53,6 +53,7 @@
 		5E4429202DB3F70F00495CBD /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44291F2DB3F70F00495CBD /* PlaceStore.swift */; };
 		5E4429222DB3F93E00495CBD /* DestinationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429212DB3F93E00495CBD /* DestinationCardView.swift */; };
 		5E4429242DB3FF6000495CBD /* AddMemorySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4429232DB3FF6000495CBD /* AddMemorySheet.swift */; };
+		5E5A771F2DBE7B3900759519 /* PromotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A771E2DBE7B3900759519 /* PromotionData.swift */; };
 		5E84E4D22DBA836100594636 /* FoodAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4D12DBA836100594636 /* FoodAnnotation.swift */; };
 		5E84E4DA2DBAABAC00594636 /* PromotionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4D92DBAABAC00594636 /* PromotionCardView.swift */; };
 		5E84E4DC2DBAAC3500594636 /* PlaceCategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84E4DB2DBAAC3500594636 /* PlaceCategoryPickerView.swift */; };
@@ -120,6 +121,7 @@
 		5E44291F2DB3F70F00495CBD /* PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceStore.swift; sourceTree = "<group>"; };
 		5E4429212DB3F93E00495CBD /* DestinationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCardView.swift; sourceTree = "<group>"; };
 		5E4429232DB3FF6000495CBD /* AddMemorySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemorySheet.swift; sourceTree = "<group>"; };
+		5E5A771E2DBE7B3900759519 /* PromotionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionData.swift; sourceTree = "<group>"; };
 		5E84E4D12DBA836100594636 /* FoodAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAnnotation.swift; sourceTree = "<group>"; };
 		5E84E4D92DBAABAC00594636 /* PromotionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCardView.swift; sourceTree = "<group>"; };
 		5E84E4DB2DBAAC3500594636 /* PlaceCategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategoryPickerView.swift; sourceTree = "<group>"; };
@@ -241,9 +243,10 @@
 			children = (
 				5E4429132DB3ED8300495CBD /* HomeView.swift */,
 				5E3C6EFD2DBA26920090A685 /* SearchBarView.swift */,
-				5E3C6EFF2DBA2CCA0090A685 /* PlaceSearchHelper.swift */,
 				5E84E4D92DBAABAC00594636 /* PromotionCardView.swift */,
 				5E84E4DB2DBAAC3500594636 /* PlaceCategoryPickerView.swift */,
+				5E3C6EFF2DBA2CCA0090A685 /* PlaceSearchHelper.swift */,
+				5E5A771E2DBE7B3900759519 /* PromotionData.swift */,
 				5E4429152DB3EEDB00495CBD /* Cards */,
 			);
 			path = HomeView;
@@ -494,6 +497,7 @@
 				5E44290D2DB3ED6700495CBD /* MostVisitedAreasView.swift in Sources */,
 				5E44290E2DB3ED6700495CBD /* PopulationDetailView.swift in Sources */,
 				5E84E4DE2DBAC28900594636 /* FullScreenPhotoViewer.swift in Sources */,
+				5E5A771F2DBE7B3900759519 /* PromotionData.swift in Sources */,
 				5E3C6F002DBA2CCA0090A685 /* PlaceSearchHelper.swift in Sources */,
 				5E2D18C52DB6686F004DA448 /* MemoryStore.swift in Sources */,
 				5E44291E2DB3F46C00495CBD /* ProfileView.swift in Sources */,

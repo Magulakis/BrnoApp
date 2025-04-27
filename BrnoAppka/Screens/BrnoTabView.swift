@@ -45,6 +45,7 @@ struct BrnoTabView: View {
 }
 
 class TabSelectionManager: ObservableObject {
+    
     @Published var selectedTab: Tab = .home
     @Published var homeResetId = UUID()
 

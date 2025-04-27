@@ -15,16 +15,6 @@ struct PromotionCard: Identifiable {
     let destination: AnyView
 }
 
-let promotionCards: [PromotionCard] = [
-    PromotionCard(title: "Brno Population", subtitle: "Approx. 382,000", destination: AnyView(PopulationDetailView())),
-    PromotionCard(title: "Most Visited Areas", subtitle: "Discover Brno’s top spots", destination: AnyView(MostVisitedAreasView())),
-    PromotionCard(title: "Food in Brno", subtitle: "Restaurants, cafés & eats", destination: AnyView(BrnoFoodView())),
-    PromotionCard(title: "Universities in Brno", subtitle: "Explore top institutions", destination: AnyView(BrnoUniversitiesView())),
-    PromotionCard(title: "Recommended Trips", subtitle: "Day trips & hidden gems", destination: AnyView(RecommendedTripsView())),
-    PromotionCard(title: "Nature in Brno", subtitle: "Parks, lakes & nature", destination: AnyView(BrnoNatureView())),
-    PromotionCard(title: "Competitive Sports", subtitle: "Clubs & major events", destination: AnyView(CompetitiveSportsView()))
-]
-
 struct HomeView: View {
     
     @EnvironmentObject var placeStore: PlaceStore
@@ -84,8 +74,8 @@ struct HomeView: View {
 
             ScrollView(.horizontal) {
                 HStack(spacing: 15) {
-                    ForEach(promotionCards.indices, id: \.self) { index in
-                        let card = promotionCards[index]
+                    ForEach(PromotionData.cards.indices, id: \.self) { index in
+                        let card = PromotionData.cards[index]
                         NavigationLink(destination: card.destination) {
                             RoundedRectangle(cornerRadius: 12)
                                 .fill(Color.brandSoftSand.opacity(0.4))
@@ -112,7 +102,7 @@ struct HomeView: View {
                                     alignment: .bottomLeading
                                 )
                                 .padding(.leading, index == 0 ? 5 : 0)
-                                .padding(.trailing, index == promotionCards.count - 1 ? 16 : 0)
+                                .padding(.trailing, index == PromotionData.cards.count - 1 ? 16 : 0)
                         }
                         .buttonStyle(PlainButtonStyle())
                     }

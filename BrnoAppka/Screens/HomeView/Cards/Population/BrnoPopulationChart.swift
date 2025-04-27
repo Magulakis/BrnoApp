@@ -114,7 +114,7 @@ struct BrnoPopulationChart: View {
             }
         }
         .sensoryFeedback(.selection, trigger: selectedDay)
-        .onChange(of: rawSelectedDate) { selectedDay = $0 }
+        .onChange(of: rawSelectedDate) { selectedDay = rawSelectedDate }
     }
 }
 

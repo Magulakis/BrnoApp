@@ -14,7 +14,7 @@ struct BrnoFoodView: View {
     @State private var selectedCategory = "All"
     @State private var selectedPlaceForMap: FoodPlace?
     @State private var showPicker = false
-
+    @State private var selectedCameraPosition: MapCameraPosition?
 
     var filteredPlaces: [FoodPlace] {
         if selectedCategory == "All" {
@@ -30,7 +30,7 @@ struct BrnoFoodView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
                         LazyVStack(spacing: 16) {
-                            ForEach(filteredPlaces, id: \ .id) { place in
+                            ForEach(filteredPlaces, id: \.id) { place in
                                 FoodPlaceRowView(
                                     place: place,
                                     onLocationTap: { selectedPlaceForMap = $0 }
@@ -39,7 +39,7 @@ struct BrnoFoodView: View {
                         }
                         .padding(.horizontal)
                         Spacer()
-                            .frame(height: 100) 
+                            .frame(height: 100)
                     }
                 }
                 .scrollIndicators(.hidden)
@@ -70,19 +70,21 @@ struct BrnoFoodView: View {
                 }
             }
             .sheet(item: $selectedPlaceForMap) { place in
-                NavigationView {
-                    Map(coordinateRegion: .constant(MKCoordinateRegion(
-                        center: CLLocationCoordinate2D(latitude: place.latitude!, longitude: place.longitude!),
-                        span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
-                    )), annotationItems: [place]) { item in
-                        MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: item.latitude!, longitude: item.longitude!)) {
+                NavigationStack {
+                    Map(initialPosition: .region(
+                        MKCoordinateRegion(
+                            center: CLLocationCoordinate2D(latitude: place.latitude!, longitude: place.longitude!),
+                            span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+                        ))
+                    ) {
+                        Annotation(place.name, coordinate: CLLocationCoordinate2D(latitude: place.latitude!, longitude: place.longitude!)) {
                             VStack {
                                 Image(systemName: "fork.knife")
                                     .padding(8)
                                     .background(Color.brandWarmRose)
                                     .foregroundStyle(.white)
                                     .clipShape(Circle())
-                                Text(item.name)
+                                Text(place.name)
                                     .font(.caption)
                                     .padding(4)
                                     .background(.thinMaterial)
@@ -91,11 +93,14 @@ struct BrnoFoodView: View {
                         }
                     }
                     .ignoresSafeArea()
+                    .navigationTitle(place.name)
+                    .navigationBarTitleDisplayMode(.inline)
                 }
             }
         }
     }
 }
+
 
 #Preview {
     BrnoFoodView()
